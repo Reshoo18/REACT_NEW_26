@@ -1,11 +1,12 @@
-import Navbar from "./components/Navbar"
+import React from 'react'
+import Card from './components/Card'
 
-function App() {
+const App = () => {
+  const user="sarthak"
   return (
-    <>
-     <Navbar/>
-
-    </>
+    <div>
+      <Card/>
+    </div>
   )
 }
 
